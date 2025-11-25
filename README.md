@@ -1,6 +1,6 @@
 # IAAD
 
- <img src="fig1.pdf" width="650"> 
+ <img src="fig1.png" width="650"> 
 
 This repository is an official implementation of IAAD
 
