@@ -1,8 +1,8 @@
-# ADAPT++
+# IAAD
 
- <img src="framework.png" width="650"> 
+ <img src="fig1.pdf" width="650"> 
 
-This repository is an official implementation of ADAPT++
+This repository is an official implementation of IAAD
 
 Created by yufan shu
 
@@ -14,11 +14,11 @@ This repository contains the training and testing of the proposed framework in p
 
 ## Note
 This reposity will be updated soon, including:
-- [x] Uploading the **[Preprocessed Data](#dataset-preparation)** of dataset.
+- [] Uploading the **[Preprocessed Data](#dataset-preparation)** of dataset.
 - [x] Uploading the **Raw Data** of IAAD.
 - [] Uploading the **Visualization Codes** of raw data and results.
 - [x] Updating the **Experiment Codes** to make it easier to get up with.
-- [x] Uploading the **[Conda Environments](#1-installation-as-conda)** of ADAPT++.
+- [x] Uploading the **[Conda Environments](#1-installation-as-conda)** of ASU-AD.
 
 
 
@@ -47,6 +47,14 @@ pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation -
 (I highly recommend going to the apex repository in person to see if the install commands are updated, I've been bothered by this issue)
 cd ..
 rm -rf apex
+```
+
+
+install yolov5
+```
+git clone https://github.com/ultralytics/yolov5
+cd yolov5
+pip install -r requirements.txt
 ```
 
 install requirements
