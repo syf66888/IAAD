@@ -29,8 +29,8 @@ This reposity will be updated soon, including:
 
 Create conda environment:
 ```
-conda create --name adapt++ python=3.8
-conda activate adapt++
+conda create --name asuad python=3.8
+conda activate asuad
 ```
 
 install torch
